@@ -1,0 +1,110 @@
+
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Example styles for the HTML elements */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Flexbox layout for the header */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px;
+}
+
+.university-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.header-info {
+    margin-left: 20px;
+}
+
+.admin-module-title {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+.admin-username {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Styles for the main content area */
+.main-content {
+    padding: 20px;
+    display: flex;
+}
+
+/* Styles for the sidebar */
+.sidebar {
+    width: 20%;
+    background-color: #007bff;
+    padding: 20px;
+    color: #fff;
+}
+
+.message-links {
+    list-style: none;
+    padding: 0;
+}
+
+.message-links li {
+    margin-bottom: 10px;
+}
+
+.message-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles for the form */
+.add-user-form {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.form-title {
+    color: #007bff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Styles for the Submit button */
+.submit-button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
